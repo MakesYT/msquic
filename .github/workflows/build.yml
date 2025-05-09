@@ -96,7 +96,7 @@ jobs:
       fail-fast: false
       matrix:
         config: ['Debug', 'Release']
-        plat: [linux]
+        plat: [linux, android]
         os: ['ubuntu-22.04', 'ubuntu-24.04']
         arch: [arm, arm64]
         tls: [quictls]
